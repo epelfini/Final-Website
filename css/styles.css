@@ -43,4 +43,6 @@ a:link {
 
 body {
 	background-image: url(../../newrainbow.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
