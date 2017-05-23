@@ -2,7 +2,7 @@
 /* CSS Document */
 
 .logo {
-	width: 200px;
+	width: px;
 	display: block;
 	margin: 0px auto;
 	
@@ -42,7 +42,8 @@ a:link {
 }
 
 body {
-	background-image: url(../../newrainbow.jpg);
+	background-image: url(../images/tamhills.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:cover;
+	position: absolute;
 }
