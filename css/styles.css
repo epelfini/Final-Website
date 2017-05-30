@@ -82,10 +82,16 @@ footer {
 }
 
 .words {
-	background: #353535;
-	width: 100%;
+	background: white;
+	height: 400px;
+	width: 750px;
 	padding: 40px;
+	display: block;
+	margin: 0px auto;
+	
+/*changed width from 100% to new dimensions, maybe change if neeeded*/
 }
+
 @font-face{
 	font-family: above;
 	src: url(../fonts/above.ttf)
@@ -96,7 +102,7 @@ footer {
 	font-size: 50px;
 	text-align: center;
 	margin-bottom: 6px;
-	color:#CCCCCC;
+	color:black;
 }
 
 
@@ -105,7 +111,147 @@ footer {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	line-height: 1.8;
-	color:#CCCCCC;
+	color:black;
 }	
 
 
+
+/*beginning of image sldier*/
+#imgslider1 {
+  	position:relative;
+	height: 500px;
+	width: 750px;
+  	margin: 0 auto;
+	
+}
+
+#imgslider1 img {
+	position: absolute;
+	width: 750px;
+	left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+ @keyframes imgslider1FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#imgslider1 img.top {
+animation-name: imgslider1FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+animation-direction: alternate;
+}
+
+/*Image Slider number 1 above*/
+
+
+
+
+
+
+
+#imgslider2 {
+  	position:relative;
+	height: 500px;
+	width: 750px;
+  	margin: 0 auto;
+	
+}
+
+#imgslider2 img {
+	position: absolute;
+	width: 750px;
+	left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+ @keyframes imgslider2FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#imgslider2 img.top {
+animation-name: imgslider2FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+animation-direction: alternate;
+}
+/*image slider number 2 above*/
+
+
+
+
+
+
+
+/*img slider 3 below*/
+#imgslider3 {
+  	position:relative;
+	height: 500px;
+	width: 750px;
+  	margin: 0 auto;
+	
+}
+
+#imgslider3 img {
+	position: absolute;
+	width: 750px;
+	left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+ @keyframes imgslider3FadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+#imgslider3 img.top {
+animation-name: imgslider3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+animation-direction: alternate;
+}
