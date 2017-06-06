@@ -36,9 +36,16 @@ nav a:link {
 
 }
 	
+footer {
+	margin-top: 400px;
+}
+
+footer p {
+	color: white;
+}
 
 .home {
-	background-image: url(../images/sunsettam.jpg);
+	background-image: url(../images/terracesunset.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	position: absolute;
@@ -50,9 +57,8 @@ h1 {
 	font-weight: 700px;
 	font-size: 45px;
 	text-align: center;
-	margin-bottom: 6px;
-	margin-top: 30px;
-	color: white;
+	margin-bottom: -25px;
+	margin-top: 60px;
 	padding: 20px;
 	
 }
@@ -88,12 +94,11 @@ p {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	line-height: 2.5;
-	color: white;
+	
 }
 
 .title {
-	padding:10px;
-	margin: 280px;
+	margin: 10px;
 }
 
 
