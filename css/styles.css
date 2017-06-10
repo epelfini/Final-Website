@@ -12,8 +12,8 @@ nav {
 	width: 100%;
 	height: 50px;
 	text-align: center;
-	padding-top: 5px;
-	background: blue;
+	padding-top: 0px;
+
 }
 
 nav ul {
@@ -28,7 +28,7 @@ nav li {
 	line-height: 50px;
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
-	margin-top: -40px;
+	margin-top: -500px;
 }
 
 nav a:link {
@@ -46,7 +46,7 @@ footer p {
 }
 
 .home {
-	background-image: url(../images/terracesunset.jpg);
+	background-image: url(../images/sunsettam.jpg);
 	background-repeat: no-repeat;
 	background-size:cover;
 	position: absolute;
@@ -58,9 +58,9 @@ h1 {
 	font-weight: 700px;
 	font-size: 45px;
 	text-align: center;
-	margin-bottom: -25px;
-	margin-top: 60px;
-	padding: 20px;
+	margin-bottom: -5px;
+	margin-top: 40px;
+	padding: 10px 100px;
 	
 }
 
@@ -95,11 +95,14 @@ p {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	line-height: 2.5;
-	
+	padding: 0 200px 0 200px;
 }
 
 .title {
-	margin: 10px;
+	width: 100%;
+	margin: 350px 0 -400px 0;
+	padding: 20px 10px 50px 10px;
+	background: white;
 }
 
 
@@ -116,7 +119,7 @@ footer {
 
 .words {
 	background: white;
-	height: 400px;
+	height: 250px;
 	width: 750px;
 	padding: 40px;
 	display: block;
